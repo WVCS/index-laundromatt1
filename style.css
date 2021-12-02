@@ -24,32 +24,21 @@ ul{
   top: 0px;
   z-index: 10;
 }
-ul{
-  list-style-type: none;
-  width: 100%;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  top: 0px;
-  z-index: 10;
-  
+li{
+  display: inline;
+  float: left;
 }
 li a {
   display: block;
   text-decoration: none;
-  padding: 15px 200px;
-  color: purple;
+  padding: 5px 50px;
+  color: white;
   font-weight: bold;
   font-size: large;
-  float: left;
-
 }
-li a:hover{
-  background-color: yellow;
-  color: black;
+li:hover{
+  background-color: red;
 }
-
 div.container{
   position: absolute;
   top: 120px;
@@ -85,5 +74,4 @@ div.carousel-caption{
   padding: 20px 0;
   font-size: 30px;
 }
-
 
