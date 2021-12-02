@@ -1,76 +1,48 @@
+h1{
+  color: purple;
+  top: 40px;
+  text-align: center;
+}
 body{
+  background-color: lightblue;
+}
+p{
+  border: dashed;
+  border-color: blue;
+  color: red;
+  font-size: 60px;
+  font-family: "Lucida Console";
+  font-style: italic;
   
 }
-div.bopeyes{
-  background-color: #F91D06;
-  border: 10px double grey;
-  text-align: center;
-  font-size: 36px;
-  font-weight: bold;
-  color: white;
-  position: absolute;
-  width: 400px;
-  top: 30px;
-  right: 38%;
+img:hover{
+  border: red dashed 5px;
+  border-radius: 50%;
 }
 ul{
   list-style-type: none;
-  width: 99.16%;
+  width: 100%;
   overflow: hidden;
   margin: 0;
   padding: 0;
-  background-color: Grey;
   position: fixed;
   top: 0px;
   z-index: 10;
-}
-li{
-  display: inline;
-  float: left;
+  
 }
 li a {
   display: block;
   text-decoration: none;
-  padding: 5px 50px;
-  color: white;
+  padding: 15px 200px;
+  color: purple;
   font-weight: bold;
   font-size: large;
-}
-li:hover{
-  background-color: red;
-}
-div.container{
-  position: absolute;
-  top: 120px;
-  right: 18%
-}
-div.carousel-caption{
-  color: grey;
-  font-weight: bold;
-  font-size: 30px;
-}
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
+  float: left;
 
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-  grid-gap: 10px;
-  background-color: red;
-  padding: 10px;
-  position: relative;
-  top: 915px
+}
+li a:hover{
+  background-color: yellow;
+  color: black;
 }
 
-.grid-container > div {
-  background-color: grey;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
+
