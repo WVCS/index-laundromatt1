@@ -2,6 +2,9 @@ h1{
   color: #023047;
   top: 40px;
   text-align: center;
+  text-decoration: underline;
+  font-family: "Lucida Console";
+  font-size: 70px;
 }
 body{
   background-color: #8ecae6;
@@ -10,9 +13,10 @@ p{
   border: dashed 4px;
   border-color: #ffb703;
   color: #023047;
-  font-size: 60px;
+  font-size: 50px;
   font-family: "Lucida Console";
   font-style: italic;
+  text-align: center;
   
 }
 img:hover{
@@ -37,13 +41,10 @@ li a {
   font-weight: bold;
   font-size: large;
   float: left;
+  font-family: "Lucida Console";
 
 }
 li a:hover{
   background-color: #ffb703;
   color: black;
 }
-
-
-
-
