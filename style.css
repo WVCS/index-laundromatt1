@@ -1,27 +1,26 @@
 h1{
-  color: purple;
+  color: #023047;
   top: 40px;
   text-align: center;
 }
 body{
-  background-color: lightblue;
+  background-color: #8ecae6;
 }
 p{
-  border: dashed;
-  border-color: blue;
-  color: red;
+  border: dashed 4px;
+  border-color: #ffb703;
+  color: #023047;
   font-size: 60px;
   font-family: "Lucida Console";
   font-style: italic;
   
 }
 img:hover{
-  border: red dashed 5px;
-  border-radius: 50%;
+  border: #fb8500 dashed 5px;
 }
 ul{
   list-style-type: none;
-  width: 80%;
+  width: 100%;
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -33,16 +32,18 @@ ul{
 li a {
   display: block;
   text-decoration: none;
-  padding: 15px 20px;
-  color: purple;
+  padding: 15px 25px;
+  color: #fb8500;
   font-weight: bold;
   font-size: large;
   float: left;
 
 }
 li a:hover{
-  background-color: yellow;
+  background-color: #ffb703;
   color: black;
 }
+
+
 
 
