@@ -48,7 +48,7 @@ li a:hover{
 }
 div.logo{
   position: absolute;
-  top:20px;
+  top:30px;
 }
 div.container-fluid{
   border: 3px solid #3A606E;
@@ -60,7 +60,7 @@ div.container-fluid{
   font-weight: bold;
   font-size: 30px;
   position: absolute;
-  top: 40px
+  top: 40px;
 }
 .accordion {
   background-color: #6A706E;
