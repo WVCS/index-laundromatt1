@@ -86,7 +86,7 @@ div.container-fluid{
 }
 table{
   position: relative;
-  top: 257px;
+  top: 260px;
   right: -210px
 }
 table, th, td {
@@ -97,7 +97,7 @@ div.store{
   font-size: 50px;
   position: absolute;
   right: 875px;
-  top: 120px;
+  top: 125px;
   color: #3A606E;
 }
 .grid-container {
@@ -106,7 +106,7 @@ div.store{
   background-color: #3A606E;
   padding: 10px;
   position: absolute;
-  top: 415px;
+  top: 420px;
   right: 675px
 }
 .grid-item {
@@ -120,7 +120,7 @@ div.riders{
   font-size: 50px;
   position: absolute;
   right: 860px;
-  top: 275px;
+  top: 280px;
   color: #3A606E;
 }
 .tab {
